@@ -4,121 +4,194 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>My | Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
+    <!-- HAMBURGER START -->
+
     <div class="container">
-        <div class="row" style="background-color: #AFC8AD;">
-            <div class="col-sm-3 col-md-3 col-lg-3 py-5 text-center ">HOME</div>
-            <div class="col-sm-3 col-md-3 col-lg-3 py-5 text-center ">ABOUT</div>
-            <div class="col-sm-3 col-md-3 col-lg-3 py-5 text-center ">PHOTOS</div>
-            <div class="col-sm-3 col-md-3 col-lg-3 py-5 text-center ">CONTACT</div>
+        <div class="row menuiki menuikistyle">
+            <nav class="navbar navbar-dark ">
+                <div class="container">
+                    <button class="navbar-toggler menuiki shadow" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleInternalContent" aria-controls="navbarToggleInternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse" id="navbarToggleInternalContent">
+                <div class="row hambtext">
+
+                    <a class="navbarstyle" href="#home"><span class="border-top">HOME</span> </a>
+
+                    <a class="navbarstyle" href="#about"><span class="border-top">ABOUT</span></a>
+
+                    <a class="navbarstyle" href="#photos"><span class="border-top">PHOTOS </span> </a>
+
+                    <a class="navbarstyle" href="#contact"><span class="border-top border-bottom">CONTACT</span></a>
+
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- HAMBURGER END -->
+
+
+    <!-- NAVBAR LG START -->
+
+    <div class="container">
+        <div class="row menu" style="background-color: #AFC8AD;">
+
+            <div class="col-sm-3 col-md-3 col-lg-3 py-5 text-center d-flex flex-column sm:border-r-2 border-b-2">
+                <!-- FLEX COLUMN DİKEY BİÇİMDE YANYANA -->
+                <a href="#home"><i class="bi bi-house fs-1 navbarstyle"></i></a>
+                <a class="navbarstyle" href="#home">HOME </a>
+            </div>
+
+            <div class="col-sm-3 col-md-3 col-lg-3 py-5 text-center d-flex flex-column sm:border-r-2 border-b-2 ">
+                <a href="#about"><i class="bi bi-person fs-1 navbarstyle"></i></a>
+                <a class="navbarstyle" href="#about">ABOUT </a>
+            </div>
+
+            <div class="col-sm-3 col-md-3 col-lg-3 py-5 text-center d-flex flex-column sm:border-r-2 border-b-2">
+                <a href="#photos"><i class="bi bi-camera fs-1 navbarstyle"></i></a>
+                <a class="navbarstyle" href="#photos">PHOTOS</a>
+            </div>
+
+            <div class="col-sm-3 col-md-3 col-lg-3 py-5 text-center d-flex flex-column sm:border-r-2 border-b-2 ">
+                <a href="#contact"><i class="bi bi-envelope fs-1 navbarstyle"></i></a>
+                <a class="navbarstyle" href="#contact">CONTACT</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- NAVBAR LG END -->
+
+    <!-- HEADER START -->
+
+    <div class="container">
+        <div class="row" style="background-color:#F2F1EB;">
+
+            <div class="col-sm-12 text-center pt-3">
+                <h1 class="fw-semibold fst-italic head mb-5 mt-3">I'm Enes Salih Gokcek</h1>
+                <h4 class="head fw-semibold fst-italic fs-5 mb-5">Front-End-Developer & Photographer</h4>
+                <div class="row">
+                    <div class="col-sm-4 offset-sm-4">
+                        <img src="images/IMG_6140.jpg" class="img-fluid  rounded-4 border border-success-subtle  mb-5"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER END -->
+
+    <!-- MAİN START -->
+
     <div class="container">
         <div class="row" style="background-color:#F2F1EB;">
             <div class="col-sm-12 text-center pt-3">
-                <h1 class="fw-semibold fst-italic head mt-3">I'm Enes Salih Gokcek</h1>
-                <br>
-                <br>
-                <h4 class="head fw-semibold fst-italic fs-5">Front-End-Developer & Photographer</h4>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-sm-4 offset-sm-4">
-                        <img src="images/IMG_6140.jpg" class="img-fluid  rounded-4 border border-success-subtle alt="...">
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="row">
-                    <h4 class="fst-italic head fw-semibold my-5" style="background-color: #AFC8AD;">ABOUT</h4>
-                    <br>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam rerum eveniet reprehenderit
-                        tenetur possimus accusamus omnis temporibus? Tempore rerum reiciendis neque error suscipit
-                        necessitatibus iste.</p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sunt corrupti quisquam eligendi
-                    exercitationem a perspiciatis maiores deserunt atque. Iste nemo culpa enim harum rem.
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam adipisci, quod fuga similique
-                        vitae consequatur. Hic sint doloremque voluptas perferendis officia voluptatum maiores ut
-                        molestias?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi, officia dignissimos
-                        architecto suscipit repellat quisquam nobis quibusdam facilis tempora repellendus deserunt minus
-                        natus reprehenderit.</p>
-                   
-                </div>
-                <div class="row">
-                    <h4 class="fst-italic head fw-semibold my-5" style="background-color: #AFC8AD;">MY PHOTOS</h4>
-                    
-                    <div class="col-sm-12 col-lg-12 col-xl-8 offset-xl-2 ">
-                        <img src="images/pexels-frame-ofe-17654061.jpg" class="img-fluid rounded-4 me-md-2" style=" height: 600px;" alt="">
-                        <img src="images/pexels-frame-ofe-17654071.jpg" class="img-fluid rounded-4 " style=" height: 600px;" alt="">
-                        <img src="images/pexels-frame-ofe-17654073.jpg" class="img-fluid rounded-4 mt-md-3 me-md-2" style=" height: 600px;" alt="">
-                        <img src="images/pexels-frame-ofe-17654075.jpg" class="img-fluid rounded-4 mt-md-3" style=" height: 600px;" alt="">
-                    </div>
-                </div>
+                <h4 id="about" class="fst-italic head fw-semibold "
+                    style="background-color: #AFC8AD ; display: inline;">ABOUT
+                </h4>
+                <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam rerum eveniet
+                    reprehenderit
+                    tenetur possimus accusamus omnis temporibus? Tempore rerum reiciendis neque error suscipit
+                    necessitatibus iste.</p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sunt corrupti quisquam eligendi
+                exercitationem a perspiciatis maiores deserunt atque. Iste nemo culpa enim harum rem.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam adipisci, quod fuga similique
+                    vitae consequatur. Hic sint doloremque voluptas perferendis officia voluptatum maiores ut
+                    molestias?</p>
+                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi, officia
+                    dignissimos
+                    architecto suscipit repellat quisquam nobis quibusdam facilis tempora repellendus deserunt minus
+                    natus reprehenderit.</p>
+            </div>
+        </div>
+    </div>
 
-                <div class="row">
-                    <h4 class="fst-italic head fw-semibold my-5" style="background-color: #AFC8AD;">CONTACT ME</h4>
-                    <div class=" col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control rounded-4 shadow" id="exampleFormControlInput1" placeholder="name@example.com">
-                      </div>
-                      <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 mb-3">
-                        <label for="exampleFormControlInput1" class="form-label ">Full Name</label>
-                        <input type="email" class="form-control rounded-4 shadow"  id="exampleFormControlInput1" placeholder="Name">
-                      </div>
-                      <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                        <textarea class="form-control rounded-4 shadow" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                </div>
-                <div class="row mt-5" style="background-color: #AFC8AD; ">
-                    <footer class="py-3 my-4">
-                        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-                        </ul>
-                        <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
-                      </footer>
+    <div class="container">
+        <div class="row" style="background-color:#F2F1EB;">
+            <div class="col-sm-12 text-center pt-3">
+                <h4 id="photos" class="fst-italic head fw-semibold my-5"
+                    style="background-color: #AFC8AD; display: inline;">MY
+                    PHOTOS</h4>
+                <div class="col-sm-12 col-lg-12 col-xl-8 offset-xl-2 mt-5">
+                    <img src="images/pexels-frame-ofe-17654061.jpg" class="img-fluid rounded-4 me-md-2 mb-3 mb-md-0 "
+                        style=" height: 600px;" alt="">
+                    <img src="images/pexels-frame-ofe-17654071.jpg" class="img-fluid rounded-4 mb-3 mb-md-0 "
+                        style=" height: 600px;" alt="">
+                    <img src="images/pexels-frame-ofe-17654073.jpg"
+                        class="img-fluid rounded-4 mt-md-3 me-md-2 mb-3 mb-md-0" style=" height: 600px;" alt="">
+                    <img src="images/pexels-frame-ofe-17654075.jpg" class="img-fluid rounded-4 mt-md-3 mb-3 mb-md-0"
+                        style=" height: 600px;" alt="">
                 </div>
             </div>
-            
         </div>
+    </div>
 
-    </div>  
+    <!-- MAİN END -->
 
-              
+    <!-- FOOTER START -->
 
+    <div class="container">
+        <div class="row" style="background-color:#F2F1EB;">
+            <div class="col-sm-12 text-center pt-5">
+                <h4 id="contact" class="fst-italic head fw-semibold p-0 "
+                    style="background-color: #AFC8AD; display: inline;">
+                    CONTACT ME</h4>
+                <div class="row mt-4">
+                    <div class=" col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 py-0 ">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control rounded-4 shadow" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 mb-3 ">
+                        <label for="exampleFormControlInput1" class="form-label ">Full Name</label>
+                        <input type="email" class="form-control rounded-4 shadow" id="exampleFormControlInput1"
+                            placeholder="Name">
+                    </div>
+                    <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                        <textarea class="form-control rounded-4 shadow" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row " style="background-color:#AFC8AD;">
+            <div class="col-sm-12 text-center ">
+                <footer class="py-3">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                    </ul>
+                    <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+                </footer>
+            </div>
+        </div>
+    </div>
 
-           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- FOOTER END -->
 
 </body>
 
