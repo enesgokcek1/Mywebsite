@@ -2,3 +2,44 @@
 {
     font-family: 'Times New Roman', Times, serif;
 }
+body
+{
+    background-color: #E8E7E2
+}
+.navbarstyle
+{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none; /* Küçük ekranlarda normal menüyü gizle */
+        justify-content: center;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .menuiki {
+        display: none; /* Küçük ekranlarda normal menüyü gizle */
+       
+        
+    }
+}
+.menuikistyle
+{
+    background-color: #AFC8AD;
+
+}
+.hambtext
+{
+    display: grid;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-weight:550;
+   
+
+}
+
+
